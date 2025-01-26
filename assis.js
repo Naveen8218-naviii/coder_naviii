@@ -1,6 +1,6 @@
 let btn=document.getElementById("btn")
 let text=document.getElementsByClassName("text")
-
+// speak function
 function speak(word) {
     let text_s =new SpeechSynthesisUtterance(word);
     text_s.rate=1;
